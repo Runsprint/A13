@@ -21,7 +21,11 @@ function celsiusToFahrenheit() {
 function fahrenheitToCelsius() {
 
 // დაწერეთ კოდი
-
+  
+var fahrenheitInput = document.getElementById("fahrenheit").value
+var celsiusOutput= (fahrenheitInput -32) * 5/9;
+document.getElementById("celsius").value = celsiusOutput.toFixed(2)
+console.log("Hello world 2")
 
 
 }
